@@ -20,5 +20,9 @@
   "homepage": "https://github.com/muhammadnorseputra/Profile-Card#readme",
   "dependencies": {
     "simple-sw-generator": "github:bobbylej/simple-sw-generator"
-  }
+  },
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0"
+  },
 }
