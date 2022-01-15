@@ -4,6 +4,7 @@
  "description": "This is my digital profile card. You can see about me here already connected with various kinds of information about me.",
  "display": "fullscreen",
  "start_url": "/index.html",
+ "theme_color": "#673AB6",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
