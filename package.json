@@ -1,0 +1,24 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "[Profile Card](https://www.tailwindtoolbox.com/templates/profile-card) is a single page template for use as a user profile website / card created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).",
+  "main": "index.js",
+  "scripts": {
+    "sw": "node sw-generate.js",
+    "sw-opt": "node sw-generate.js --source ./dist --dist ./dist/service-worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadnorseputra/Profile-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadnorseputra/Profile-Card/issues"
+  },
+  "homepage": "https://github.com/muhammadnorseputra/Profile-Card#readme",
+  "dependencies": {
+    "simple-sw-generator": "github:bobbylej/simple-sw-generator"
+  }
+}
