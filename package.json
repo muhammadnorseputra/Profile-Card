@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sw": "node sw-generate.js",
-    "sw-opt": "node sw-generate.js --source ./dist --dist ./dist/service-worker.js"
+    "sw-opt": "node sw-generate.js --source ./ --dist ./service-worker.js"
   },
   "repository": {
     "type": "git",
