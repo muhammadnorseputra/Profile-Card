@@ -8,6 +8,7 @@
 		<title>Hi, I'm M. Nor Seputra</title>
 		<!-- Themes -->
 		<meta name="theme-color" content="#673AB6">
+		<link rel="manifest" href="/assets/fav/manifest.json">
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/fav/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/assets/fav/apple-icon-60x60.png">
@@ -171,6 +172,7 @@
 		</div>
 		<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
 		<script src="https://unpkg.com/tippy.js@4"></script>
+		<script src="/service-worker.js"></script>
 		<script>
 			//Init tooltips
 			tippy('.switch',{
@@ -190,7 +192,7 @@
 			if (body.classList.contains('text-gray-900')) {
 				toggle.innerHTML = `
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-																																																																																																																																																	<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+																																																																																																																																																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 					</svg>
 				`;
 				body.classList.remove('text-gray-900');
@@ -200,7 +202,7 @@
 			} else
 			{
 				toggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-																																																																																																																																																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+																																																																																																																																																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 				</svg>`;
 				body.classList.remove('text-gray-100');
 				body.classList.add('text-gray-900');
